@@ -25,7 +25,7 @@
     [self.view addSubview:self.splashView];
     
     // 忽略有广告时状态栏需要隐藏再出现
-    BOOL hasAd = arc4random() % 2 == 1 ? true : false;
+    BOOL hasAd = arc4random() % 3 == 1 ? true : false;
     
     if (hasAd) {
         // - 可以把下一张广告图也请求下来,实现预加载,看上去效果会比较好

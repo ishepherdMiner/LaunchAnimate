@@ -5,5 +5,6 @@
 |Target|效果图|
 |:-:|:-:|
 |LaunchAnimate|![images](https://github.com/ishepherdMiner/LaunchAnimate/blob/master/images/Launch_Wechat.gif)|
-|LaunchDynamicToast|![images](https://github.com/ishepherdMiner/LaunchAnimate/blob/master/images/Launch_Kugou.gif)
+|LaunchDynamicToast|![images](https://github.com/ishepherdMiner/LaunchAnimate/blob/master/images/Launch_Kugou.gif)|
+|LaunchPlaceholder|![images](https://github.com/ishepherdMiner/LaunchAnimate/blob/master/images/Launch_Weibo.gif)|
 
