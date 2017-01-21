@@ -30,7 +30,7 @@
     [launchView addSubview:self.dynamicLabel];
     [mainWindow addSubview:launchView];
     
-    // - bug:首次安装会有一个闪烁的短暂过程,目前不知道去优化解决
+    // - bug:首次安装会有一个闪烁的短暂过程
     [UIView animateWithDuration:1.0f delay:0.5f options:UIViewAnimationOptionCurveLinear animations:^{
 
         launchView.alpha = 0.0f;

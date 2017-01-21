@@ -33,11 +33,9 @@
         [self.splashView addSubview:self.adImgView];
         [self.splashView addSubview:self.splashImgView];
         
-        [UIView animateWithDuration:2.5 delay:0.5 options:UIViewAnimationOptionTransitionCrossDissolve animations:^{
-            self.splashView.alpha = 0.0;
-        } completion:^(BOOL finished) {
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             [self.splashView removeFromSuperview];
-        }];
+        });
         
     }else {
         
@@ -50,7 +48,7 @@
         }];
     }
     
-    // - 显示控制器页面逻辑...
+    // 其他 ...
 }
 
 - (UIImageView *)splashImgView {

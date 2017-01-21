@@ -6,5 +6,5 @@
 |:-:|:-:|
 |LaunchAnimate|![images](https://github.com/ishepherdMiner/LaunchAnimate/blob/master/images/Launch_Wechat.gif)|
 |LaunchDynamicToast|![images](https://github.com/ishepherdMiner/LaunchAnimate/blob/master/images/Launch_Kugou.gif)|
-|LaunchPlaceholder|![images](https://github.com/ishepherdMiner/LaunchAnimate/blob/master/images/Launch_Weibo.gif)|
+|LaunchPlaceholder|![images](https://github.com/ishepherdMiner/LaunchAnimate/blob/master/images/Launch_Weibo.gif)![images](https://github.com/ishepherdMiner/LaunchAnimate/blob/master/images/Launch_Weibo2.gif)|
 
