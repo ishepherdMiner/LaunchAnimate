@@ -16,29 +16,27 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-}
-
-- (void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
+    
     UIViewController *viewController = [[UIStoryboard storyboardWithName:@"LaunchScreen" bundle:nil] instantiateViewControllerWithIdentifier:@"LaunchScreen"];
     
     UIView *launchView = viewController.view;
     [self compatibleWithLaunchView:launchView];
     
-    UIWindow *mainWindow = [UIApplication sharedApplication].keyWindow;
-    launchView.frame = [UIApplication sharedApplication].keyWindow.frame;
     [launchView addSubview:self.dynamicLabel];
-    [mainWindow addSubview:launchView];
+    [self.view addSubview:launchView];
     
-    // - bug:首次安装会有一个闪烁的短暂过程
-    [UIView animateWithDuration:1.0f delay:0.5f options:UIViewAnimationOptionCurveLinear animations:^{
-
+    [UIView animateWithDuration:1.5f delay:0.5f options:UIViewAnimationOptionTransitionNone animations:^{
+        
         launchView.alpha = 0.0f;
         launchView.layer.transform = CATransform3DScale(CATransform3DIdentity, 2.0f, 2.0f, 1.0f);
-
+        
     } completion:^(BOOL finished) {
         [launchView removeFromSuperview];
     }];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
 }
 
 - (void)compatibleWithLaunchView:(UIView *)launchView {
