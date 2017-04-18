@@ -20,10 +20,9 @@
     UIViewController *viewController = [[UIStoryboard storyboardWithName:@"LaunchScreen" bundle:nil] instantiateViewControllerWithIdentifier:@"LaunchScreen"];
     
     UIView *launchView = viewController.view;
-    [self compatibleWithLaunchView:launchView];
     
     [launchView addSubview:self.dynamicLabel];
-    [self.view addSubview:launchView];
+    [[[UIApplication sharedApplication].delegate window] addSubview:launchView];
     
     [UIView animateWithDuration:1.5f delay:0.5f options:UIViewAnimationOptionTransitionNone animations:^{
         
