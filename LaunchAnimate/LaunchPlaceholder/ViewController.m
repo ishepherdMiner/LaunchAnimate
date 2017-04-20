@@ -30,6 +30,9 @@
     if (hasAd) {
         // - 可以把下一张广告图也请求下来,实现预加载,看上去效果会比较好
         [self.adImgView sd_setImageWithURL:[NSURL URLWithString:@"https://ooo.0o0.ooo/2017/01/20/58821a46b366e.png"]];
+        
+        [[[UIApplication sharedApplication].delegate window] addSubview:self.splashView];
+        
         [self.splashView addSubview:self.adImgView];
         [self.splashView addSubview:self.splashImgView];
         
@@ -91,7 +94,7 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
 
