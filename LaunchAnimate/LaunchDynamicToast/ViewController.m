@@ -21,6 +21,8 @@
     
     UIView *launchView = viewController.view;
     
+    [self compatibleWithLaunchView:launchView];
+    
     [launchView addSubview:self.dynamicLabel];
     [[[UIApplication sharedApplication].delegate window] addSubview:launchView];
     
