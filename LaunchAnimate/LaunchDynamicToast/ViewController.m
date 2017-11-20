@@ -52,6 +52,12 @@
         addImgView.frame = [UIScreen mainScreen].bounds;
         [launchView addSubview:addImgView];
         [imgView removeFromSuperview];
+    }else if(([[UIScreen mainScreen] bounds].size.height == 812)) {
+        // 判断为iPhone X
+        UIImageView *addImgView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"LaunchImage"]];
+        addImgView.frame = [UIScreen mainScreen].bounds;
+        [launchView addSubview:addImgView];
+        [imgView removeFromSuperview];
     }
 }
 

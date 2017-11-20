@@ -392,17 +392,17 @@
 				TargetAttributes = {
 					966761341E30FF4F00916FB8 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = ZEY359R7A4;
+						DevelopmentTeam = W49XAY8UZ2;
 						ProvisioningStyle = Automatic;
 					};
 					96A853BA1E308DAD001BA3EB = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = ZEY359R7A4;
+						DevelopmentTeam = W49XAY8UZ2;
 						ProvisioningStyle = Automatic;
 					};
 					96A853DE1E3095FA001BA3EB = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = ZEY359R7A4;
+						DevelopmentTeam = W49XAY8UZ2;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -577,7 +577,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZEY359R7A4;
+				DEVELOPMENT_TEAM = W49XAY8UZ2;
 				INFOPLIST_FILE = LaunchPlaceholder/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -590,7 +590,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZEY359R7A4;
+				DEVELOPMENT_TEAM = W49XAY8UZ2;
 				INFOPLIST_FILE = LaunchPlaceholder/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -691,7 +691,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZEY359R7A4;
+				DEVELOPMENT_TEAM = W49XAY8UZ2;
 				INFOPLIST_FILE = LaunchAnimate/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -704,7 +704,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZEY359R7A4;
+				DEVELOPMENT_TEAM = W49XAY8UZ2;
 				INFOPLIST_FILE = LaunchAnimate/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -717,7 +717,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZEY359R7A4;
+				DEVELOPMENT_TEAM = W49XAY8UZ2;
 				INFOPLIST_FILE = LaunchDynamicToast/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -730,7 +730,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZEY359R7A4;
+				DEVELOPMENT_TEAM = W49XAY8UZ2;
 				INFOPLIST_FILE = LaunchDynamicToast/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
